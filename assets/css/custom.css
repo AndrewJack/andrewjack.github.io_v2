@@ -1,0 +1,18 @@
+.content-center {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.title {
+  background: #1976D2;
+}
+
+.header-site h3 {
+  color:#fff;
+  font-size: 2rem;
+  padding: 1.875rem 0;
+}
+
+.text-block {
+  margin: 1rem auto;
+}
