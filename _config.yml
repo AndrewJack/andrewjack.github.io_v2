@@ -13,7 +13,7 @@ linkedin_username:  andr3wjack
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 
 
