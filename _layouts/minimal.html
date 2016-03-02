@@ -7,8 +7,11 @@ layout: compress
     {% include head.html %}
     <body>
         {% include svg-icons.html %}
+        {% include navigation.html %}
         <section class="post" itemscope itemtype="http://schema.org/WebPage">
-
+            <div class="header-site">
+              <h3 class="content-center">{{ page.title }}</h3>
+            </div>
             <article role="article" id="scroll" class="post-content" role="main" itemprop="mainContentOfPage">
                 {{ content }}
             </article>
